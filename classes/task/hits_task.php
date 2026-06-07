@@ -183,6 +183,7 @@ class hits_task extends \core\task\scheduled_task {
             foreach ($result3 as $row) {
                 $eventid = $row->id;
                 $moduletable = $row->moduletable;
+                $closingdatefield = $row->closingdatefield;
                 if ($dbman->table_exists($moduletable)) {
                     $sql4 = "
                         INSERT INTO {logstore_socialflow_closing_temp} (hitid, closingdate)
