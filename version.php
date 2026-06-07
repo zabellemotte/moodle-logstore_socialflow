@@ -32,4 +32,4 @@ $plugin->version = 2026060601;
 $plugin->release = 'v1.0.10';
 $plugin->maturity = MATURITY_STABLE;
 
-$plugin->requires = 2017111302;
+$plugin->requires = 2024042200;
